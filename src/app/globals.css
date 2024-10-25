@@ -6,6 +6,11 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --blue:#35a6f9;
+  --text-blue:#0084f6;
+  --text-black:#333;
+  --text-blue:#0c3f8abd;
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,15 +22,17 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: var(--text-black) ;
+  background-color: #eee;
+ 
 }
 
+@layer components {
+  .heading1{
+    @apply lg:text-3xl text-2xl text-blue-dark capitalize  px-5
+  }
+  
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
