@@ -140,4 +140,4 @@ const billing = [
 ];
 
 
-export { users, patients, medicalRecords, billing };
+export { users, patients,appointments, medicalRecords, billing };
