@@ -12,14 +12,14 @@ function Hero() {
 
           <div className="hero-text flex flex-col mx-10 ">
                     <h1 className='font-bold text-4xl xl:text-5xl  text-blue-light'>Medicare Clincal Center</h1>
-                    <p className='text-white text-wrap sm:hidden md:block font-extralight leading-loose'>We have one of the most respected obstetrics and gynecology practices Nationwide, with specialists committed to providing comprehensive medical and surgical care to women. </p>
+                    <p className='text-white text-wrap hidden md:block font-extralight leading-loose'>We have one of the most respected obstetrics and gynecology practices Nationwide, with specialists committed to providing comprehensive medical and surgical care to women. </p>
 
                     <ActionButtons action = {"Learn More"} />
 
                   
                   </div>
 
-                  <div className="hero-img w1/2  mx-2">
+                  <div className="hero-img mb-0  mx-2">
                     <Image src={'/images/doctors37.png'} width={2000} height={1500} alt='hero-img'/>
                   </div>
                 </div>
